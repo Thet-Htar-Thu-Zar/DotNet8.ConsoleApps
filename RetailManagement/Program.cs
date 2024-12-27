@@ -8,7 +8,6 @@ namespace Retail
         {
             RetailSystem retailSystem = new RetailSystem();
             retailSystem.Run();
-
         }
     }
 
