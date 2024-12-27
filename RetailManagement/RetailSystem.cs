@@ -4,6 +4,7 @@ namespace RetailManagement
 {
     public class RetailSystem
     {
+
         static List<Product> inventory = new List<Product>
         {
             new Product { ProductID = "P001", ProductName = "Mouse", RemainingStock = 10, ProductPrice = 23000.00, ProductProfit = 400.00 },
@@ -13,6 +14,7 @@ namespace RetailManagement
             new Product { ProductID = "P005", ProductName = "MousePad", RemainingStock = 80, ProductPrice = 5000.00, ProductProfit = 400.00 }
 
         };
+
        private static List<SaleReports> saleReports = new List<SaleReports> { };
 
         public void Run()
