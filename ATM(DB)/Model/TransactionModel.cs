@@ -15,6 +15,5 @@ namespace ATM_DB_.Model
 
         public decimal TransactionAmount { get; set; }
         public DateTime CreatedDate { get; set; } =DateTime.Now;
-
     }
 }
