@@ -7,6 +7,7 @@ namespace RetailManagement_DB_
     {
         public readonly AppDbContext _db = new AppDbContext();
 
+        #region choose option
         public void RetailSystem()
         {
             while (true)
@@ -55,6 +56,9 @@ namespace RetailManagement_DB_
                 }
             }
         }
+        #endregion
+
+        #region CreateProduct
         public void CreateProduct()
         {
             try
@@ -86,6 +90,8 @@ namespace RetailManagement_DB_
             }
 
         }
+        #endregion
+
         public void ShowProduct()
         {
             try
