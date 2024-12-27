@@ -17,4 +17,5 @@
         public double TotalPrice { get; set; }
         public double TotalProfit { get; set; }
     }
+
 }
