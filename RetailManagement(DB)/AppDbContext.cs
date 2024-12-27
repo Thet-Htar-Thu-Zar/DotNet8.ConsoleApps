@@ -14,8 +14,6 @@ namespace RetailManagement_DB_
             }
         }
         public virtual DbSet<ProductModel> Products { get; set; }
-        public virtual DbSet<SalereportModel> Salereports { get; set; }
-
-      
+        public virtual DbSet<SalereportModel> Salereports { get; set; }      
     }
 }
