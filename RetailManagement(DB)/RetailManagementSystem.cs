@@ -92,6 +92,7 @@ namespace RetailManagement_DB_
         }
         #endregion
 
+        #region ShowProduct
         public void ShowProduct()
         {
             try
@@ -132,6 +133,7 @@ namespace RetailManagement_DB_
             }
             
         }
+        #endregion
         public void ShowProducts()
         {
             try
