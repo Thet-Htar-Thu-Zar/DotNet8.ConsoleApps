@@ -255,6 +255,8 @@ namespace RetailManagement_DB_
         }
 
         #endregion
+
+        #region CreateSaleReport
         public void CreateSaleReport()
         {
             try
@@ -312,6 +314,8 @@ namespace RetailManagement_DB_
                 Console.WriteLine(ex.Message);
             }
         }
+        #endregion
+
         public void ShowSalereports()
         {
             try
