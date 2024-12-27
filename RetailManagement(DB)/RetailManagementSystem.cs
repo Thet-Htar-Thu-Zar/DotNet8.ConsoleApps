@@ -134,6 +134,8 @@ namespace RetailManagement_DB_
             
         }
         #endregion
+
+        #region Show AllProducts
         public void ShowProducts()
         {
             try
@@ -156,6 +158,9 @@ namespace RetailManagement_DB_
             }
 
         }
+        #endregion
+
+        #region Product
         public void UpdateProduct()
         {
             try
@@ -215,6 +220,7 @@ namespace RetailManagement_DB_
                 Console.WriteLine(ex.Message);
             }
         }
+        #endregion
         public void DeleteProduct()
         {
             try
