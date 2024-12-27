@@ -10,5 +10,4 @@ namespace Retail
             retailSystem.Run();
         }
     }
-
 }
