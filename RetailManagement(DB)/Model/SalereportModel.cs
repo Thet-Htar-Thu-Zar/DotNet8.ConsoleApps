@@ -15,6 +15,5 @@ namespace RetailManagement_DB_.Model
             public decimal? TotalProfit { get; set; }
             public DateTime? CreatedDate { get; set; } = DateTime.UtcNow;
             public DateTime? UpdatedDate { get; set; } = DateTime.UtcNow;
-
     }
 }
