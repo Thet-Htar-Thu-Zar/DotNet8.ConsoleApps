@@ -56,6 +56,7 @@ namespace RetailManagement_DB_
                 }
             }
         }
+
         #endregion
 
         #region CreateProduct
@@ -90,6 +91,7 @@ namespace RetailManagement_DB_
             }
 
         }
+
         #endregion
 
         #region ShowProduct
@@ -133,6 +135,7 @@ namespace RetailManagement_DB_
             }
             
         }
+
         #endregion
 
         #region Show AllProducts
@@ -158,9 +161,10 @@ namespace RetailManagement_DB_
             }
 
         }
+
         #endregion
 
-        #region Product
+        #region UpdateProduct
         public void UpdateProduct()
         {
             try
@@ -220,6 +224,7 @@ namespace RetailManagement_DB_
                 Console.WriteLine(ex.Message);
             }
         }
+
         #endregion
 
         #region DeleteProduct
@@ -314,8 +319,10 @@ namespace RetailManagement_DB_
                 Console.WriteLine(ex.Message);
             }
         }
+
         #endregion
 
+        #region ShowAllSaleReports
         public void ShowSalereports()
         {
             try
@@ -337,5 +344,7 @@ namespace RetailManagement_DB_
                 Console.WriteLine(ex.Message);
             }
         }
+
+        #endregion
     }
 }
