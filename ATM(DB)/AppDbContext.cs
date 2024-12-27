@@ -14,7 +14,6 @@ namespace ATM_DB_
             }
         }
         public virtual DbSet<UsersModel> TblUsers { get; set; }
-        public virtual DbSet<TransactionModel> TblTransactions { get; set; }
-        
+        public virtual DbSet<TransactionModel> TblTransactions { get; set; }       
     }
 }
