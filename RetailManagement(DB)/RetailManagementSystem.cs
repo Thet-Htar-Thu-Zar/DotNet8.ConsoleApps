@@ -221,6 +221,8 @@ namespace RetailManagement_DB_
             }
         }
         #endregion
+
+        #region DeleteProduct
         public void DeleteProduct()
         {
             try
@@ -251,6 +253,8 @@ namespace RetailManagement_DB_
                 Console.WriteLine(ex.Message);
             }
         }
+
+        #endregion
         public void CreateSaleReport()
         {
             try
