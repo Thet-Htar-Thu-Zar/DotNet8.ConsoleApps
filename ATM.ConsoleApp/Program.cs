@@ -177,7 +177,6 @@ class AtmWallet
                 if (option == "4") break;
                 #endregion
             }
-
         }
         catch (Exception ex)
         {
