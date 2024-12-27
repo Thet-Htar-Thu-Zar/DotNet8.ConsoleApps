@@ -168,8 +168,7 @@ namespace ATM_DB_
                         }
                         #endregion
 
-                        if (option == "5") break;
-                   
+                        if (option == "5") break;                   
                 }
             }               
         }
