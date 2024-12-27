@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
-
-class Area
+﻿class Area
 {
     static void Main(string[] args)
     {
